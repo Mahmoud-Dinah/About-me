@@ -115,7 +115,7 @@ q6 = parseInt(q6);
 console.log(typeof q6);
 
 //  6th Q
-
+function ques6(){
 for(let i = 0 ; i<=3; i++){
   if(q6 == 5){
     alert('thats correct')
@@ -130,6 +130,8 @@ for(let i = 0 ; i<=3; i++){
    }
    
   }
+}
+ques6();
 alert('the correct answer is 5');
 
 // 7th Q
