@@ -71,7 +71,7 @@ ques3();
 let q4 = prompt('do you think i like food ?');
 
 console.log(q4);
-
+function ques4(){
 q4 = q4.toLowerCase(); 
 switch(q4){
 case 'yes':
@@ -86,7 +86,8 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
-
+}
+ques4();
 let q5 = prompt('do you think i like winter ?');
 
 console.log(q5);
