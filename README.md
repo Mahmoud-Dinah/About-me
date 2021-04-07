@@ -11,3 +11,5 @@ Code Example:
    `{ let userName = prompt('please enter our name'); alert('Welcome ' + userName + ' to my site');}`
 
   Copyright (c) 2021 Mahmoud Al-Dinah
+## the navigator: mahmmoud
+## the driver : shaheenaz
