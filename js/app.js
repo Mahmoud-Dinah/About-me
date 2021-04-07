@@ -10,7 +10,7 @@ let score = 0;
 let q1 = prompt('do you think i like summer ?');
 
 console.log(q1);
-
+function ques1(){
 q1 = q1.toLowerCase(); 
 switch(q1){
 case 'yes':
@@ -25,6 +25,8 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
+}
+ques1();
 
 let q2 = prompt('do you think i like Movies ?');
 
