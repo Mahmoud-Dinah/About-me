@@ -139,7 +139,7 @@ alert('the correct answer is 5');
 let q7 = prompt('Can you guess my fav. support ?')
 
 let sport = ['basketball','football','tenes','shooting','swimming','racing','walking'];
-
+function ques7(){
 for(let i = 0 ; i<=5; i++){
 if (q7 == sport [0]){
 alert('thats correct')
@@ -156,6 +156,8 @@ break;
 }else{
   q7=prompt('please try again');}
 }
+} 
+ques7();
 
 alert('The correct answers is : ' + sport [0] + ' and ' + sport [2] + ' and ' + sport [3] )
 
