@@ -91,7 +91,7 @@ ques4();
 let q5 = prompt('do you think i like winter ?');
 
 console.log(q5);
-
+function ques5(){
 q5 = q5.toLowerCase(); 
 switch(q5){
 case 'yes':
@@ -106,7 +106,8 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
-
+}
+ques5();
 document.write('Have a nice Day :) ' + userName)
 
 let q6 = prompt('please choose a number from 0-10');
