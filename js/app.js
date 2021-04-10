@@ -151,6 +151,6 @@ break;
 
 alert('The correct answers is : ' + sport [0] + ' and ' + sport [2] + ' and ' + sport [3] )
 
-alert('Your final score is:  '+ score);
+alert('Your final score is:  '+ score + ' out 7');
 
 
