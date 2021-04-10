@@ -10,7 +10,7 @@ let score = 0;
 let q1 = prompt('do you think i like summer ?');
 
 console.log(q1);
-
+function ques1(){
 q1 = q1.toLowerCase(); 
 switch(q1){
 case 'yes':
@@ -25,11 +25,13 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
+}
+ques1();
 
 let q2 = prompt('do you think i like Movies ?');
 
 console.log(q2);
-
+function ques2(){
 q2 = q2.toLowerCase(); 
 switch(q2){
 case 'yes':
@@ -44,11 +46,12 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
-
+}
+ques2();
 let q3 = prompt('do you find my site intersting ?');
 
 console.log(q3);
-
+function ques3(){
 q3 = q3.toLowerCase(); 
 switch(q3){
 case 'yes':
@@ -63,11 +66,12 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
-
+}
+ques3();
 let q4 = prompt('do you think i like food ?');
 
 console.log(q4);
-
+function ques4(){
 q4 = q4.toLowerCase(); 
 switch(q4){
 case 'yes':
@@ -82,11 +86,12 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
-
+}
+ques4();
 let q5 = prompt('do you think i like winter ?');
 
 console.log(q5);
-
+function ques5(){
 q5 = q5.toLowerCase(); 
 switch(q5){
 case 'yes':
@@ -101,7 +106,8 @@ case 'n':
 default:
   alert('please answer with yes or no');
 }
-
+}
+ques5();
 document.write('Have a nice Day :) ' + userName)
 
 let q6 = prompt('please choose a number from 0-10');
@@ -109,7 +115,7 @@ q6 = parseInt(q6);
 console.log(typeof q6);
 
 //  6th Q
-
+function ques6(){
 for(let i = 0 ; i<=3; i++){
   if(q6 == 5){
     alert('thats correct')
@@ -124,6 +130,8 @@ for(let i = 0 ; i<=3; i++){
    }
    
   }
+}
+ques6();
 alert('the correct answer is 5');
 
 // 7th Q
@@ -131,7 +139,7 @@ alert('the correct answer is 5');
 let q7 = prompt('Can you guess my fav. support ?')
 
 let sport = ['basketball','football','tenes','shooting','swimming','racing','walking'];
-
+function ques7(){
 for(let i = 0 ; i<=5; i++){
 if (q7 == sport [0]){
 alert('thats correct')
@@ -148,6 +156,8 @@ break;
 }else{
   q7=prompt('please try again');}
 }
+} 
+ques7();
 
 alert('The correct answers is : ' + sport [0] + ' and ' + sport [2] + ' and ' + sport [3] )
 
