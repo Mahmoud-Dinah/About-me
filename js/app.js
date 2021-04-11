@@ -1,15 +1,15 @@
 'use strict'
-// welcoming message
+
 let userName = prompt('please enter our name');
 alert('Welcome ' + userName + ' to my site');
 
 
-// // 5 yes or no qustions
+
 
 let score = 0;
 let q1 = prompt('do you think i like summer ?');
 
-console.log(q1);
+
 function ques1(){
 q1 = q1.toLowerCase(); 
 switch(q1){
@@ -30,7 +30,7 @@ ques1();
 
 let q2 = prompt('do you think i like Movies ?');
 
-console.log(q2);
+
 function ques2(){
 q2 = q2.toLowerCase(); 
 switch(q2){
@@ -50,7 +50,7 @@ default:
 ques2();
 let q3 = prompt('do you find my site intersting ?');
 
-console.log(q3);
+
 function ques3(){
 q3 = q3.toLowerCase(); 
 switch(q3){
@@ -70,7 +70,7 @@ default:
 ques3();
 let q4 = prompt('do you think i like food ?');
 
-console.log(q4);
+
 function ques4(){
 q4 = q4.toLowerCase(); 
 switch(q4){
@@ -90,7 +90,7 @@ default:
 ques4();
 let q5 = prompt('do you think i like winter ?');
 
-console.log(q5);
+
 function ques5(){
 q5 = q5.toLowerCase(); 
 switch(q5){
@@ -112,7 +112,7 @@ document.write('Have a nice Day :) ' + userName)
 
 let q6 = prompt('please choose a number from 0-10');
 q6 = parseInt(q6);
-console.log(typeof q6);
+
 
 //  6th Q
 function ques6(){
